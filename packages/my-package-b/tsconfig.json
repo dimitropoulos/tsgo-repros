@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "outDir": "${configDir}/dist",
+  },
+  "include": ["src/**/*.ts"]
+}
