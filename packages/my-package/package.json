@@ -1,0 +1,15 @@
+{
+  "name": "@tsgo-repros/my-package",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "tsgo": "tsgo",
+    "tsc": "tsc"
+  },
+  "devDependencies": {
+    "@typescript/native-preview": "7.0.0-dev.20250617.1",
+    "typescript": "5.8.3",
+    "@tsgo-repros/my-package-b": "workspace:*"
+  }
+}
